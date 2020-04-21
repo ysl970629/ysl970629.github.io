@@ -12,9 +12,32 @@ language: en
 timezone: ''
 email: ysl_0629@qq.com
 
+menu:
+  主页: /
+  随笔: /tags/随笔/
+
+# SubNav
+subnav:
+  github: "https://github.com/ysl970629"
+  weibo: "#"
+  #rss: "#"
+  zhihu: "https://www.zhihu.com/people/yu-song-li-75"
+  #qq: "#"
+  #weixin: "#"
+  #jianshu: "#"
+  #douban: "#"
+  #segmentfault: "#"
+  #bilibili: "#"
+  #acfun: "#"
+  mail: "mailto:ysl_0629@qq.com"
+  #facebook: "#"
+  #google: "#"
+  #twitter: "#"
+  #linkedin: "#"
+
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com
+url: http://yoursite.com/
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
