@@ -3,11 +3,11 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Hexo
+title: YuSLi的部落阁
 subtitle: ''
 description: ''
 keywords:
-author: John Doe
+author: YuSLi
 language: en
 timezone: ''
 
@@ -101,3 +101,23 @@ deploy:
   type: git
   repo: git@github.com:ysl970629/ysl970629.github.io.git
   branch: master
+
+# yilia主题的作者要求添加的东西：
+jsonContent:
+  meta: false
+  pages: false
+  posts:
+    title: true
+    date: true
+    path: true
+    text: false
+    raw: false
+    content: false
+    slug: false
+    updated: false
+    comments: false
+    link: false
+    permalink: false
+    excerpt: false
+    categories: false
+    tags: true
