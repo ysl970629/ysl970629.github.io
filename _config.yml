@@ -4,12 +4,13 @@
 
 # Site
 title: YuSLi的部落阁
-subtitle: ''
-description: ''
-keywords:
+subtitle: 默默无闻的小卒
+description: 山东财经大学16级
+keywords: "java,python,极客,程序员,开源,代码,编程"
 author: YuSLi
 language: en
 timezone: ''
+email: ysl_0629@qq.com
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
