@@ -4,40 +4,16 @@
 
 # Site
 title: YuSLi的部落阁
-subtitle: 默默无闻的小卒
-description: 山东财经大学16级
-keywords: "java,python,极客,程序员,开源,代码,编程"
+subtitle: ''
+description: ''
+keywords:
 author: YuSLi
 language: en
 timezone: ''
-email: ysl_0629@qq.com
-
-menu:
-  主页: /
-  随笔: /tags/随笔/
-
-# SubNav
-subnav:
-  github: "https://github.com/ysl970629"
-  weibo: "#"
-  #rss: "#"
-  zhihu: "https://www.zhihu.com/people/yu-song-li-75"
-  #qq: "#"
-  #weixin: "#"
-  #jianshu: "#"
-  #douban: "#"
-  #segmentfault: "#"
-  #bilibili: "#"
-  #acfun: "#"
-  mail: "mailto:ysl_0629@qq.com"
-  #facebook: "#"
-  #google: "#"
-  #twitter: "#"
-  #linkedin: "#"
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: http://yoursite.com/
+url: http://yoursite.com
 root: /
 permalink: :year/:month/:day/:title/
 permalink_defaults:
