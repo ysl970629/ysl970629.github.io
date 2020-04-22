@@ -96,7 +96,7 @@ creative_commons:
 # Scheme Settings
 # ---------------------------------------------------------------
 
-# Schemes
+# Schemes #主题 样式
 #scheme: Muse
 #scheme: Mist
 #scheme: Pisces
@@ -161,9 +161,9 @@ sidebar:
   onmobile: false
 
 # Sidebar Avatar
-avatar:
+avatar: #头像
   # Replace the default image and set the url here.
-  url: #/images/avatar.gif
+  url: https://cdn.jsdelivr.net/gh/ysl970629/public_picture_bed_01@latest//img/00头像.jpg#/images/avatar.gif
   # If true, the avatar will be dispalyed in circle.
   rounded: false
   # If true, the avatar will be rotated with the cursor.
