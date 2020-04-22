@@ -201,7 +201,8 @@ links_settings:
   layout: block
 
 links:
-  #Title: http://yoursite.com
+  山东财经大学教务系统: http://jw.sdufe.edu.cn/
+  山财大疫情区块链系统: http://bcfl.sdufe.edu.cn/index/login
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
