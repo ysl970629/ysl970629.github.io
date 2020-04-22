@@ -165,9 +165,9 @@ avatar: #头像
   # Replace the default image and set the url here.
   url: https://cdn.jsdelivr.net/gh/ysl970629/public_picture_bed_01@latest//img/00头像.jpg#/images/avatar.gif
   # If true, the avatar will be dispalyed in circle.
-  rounded: false
+  rounded: true # 圆形头像
   # If true, the avatar will be rotated with the cursor.
-  rotated: false
+  rotated: true # 头像旋转
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
