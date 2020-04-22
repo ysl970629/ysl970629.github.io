@@ -176,16 +176,16 @@ site_state: true
 # Usage: `Key: permalink || icon`
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
-social:
-  #GitHub: https://github.com/yourname || fab fa-github
-  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
-  #Weibo: https://weibo.com/yourname || fab fa-weibo
+social: # 社交
+  GitHub: https://github.com/ysl970629 || fab fa-github #https://github.com/yourname 
+  E-Mail: mailto:ysl_0629@qq.com || fa fa-envelope #mailto:yourname@gmail.com 
+  Weibo: https://weibo.com/u/6003135640?is_all=1 || fab fa-weibo #https://weibo.com/yourname 
   #Google: https://plus.google.com/yourname || fab fa-google
-  #Twitter: https://twitter.com/yourname || fab fa-twitter
-  #FB Page: https://www.facebook.com/yourname || fab fa-facebook
-  #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
+  Twitter: https://twitter.com/yusli0629_ || fab fa-twitter
+  FB Page: https://www.facebook.com/profile.php?id=100039363857543 || fab fa-facebook
+  Instagram: https://www.instagram.com/ysl0629_/ || fab fa-instagram
+  StackOverflow: https://stackoverflow.com/users/13379393 || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
-  #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
 
 social_icons:
