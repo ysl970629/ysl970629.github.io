@@ -16,7 +16,7 @@
     <header class="header" itemscope itemtype="http://schema.org/WPHeader">
       <div class="header-inner">{% include '_partials/header/index.swig' %}</div>
     </header>
-
+    
     {{ partial('_partials/widgets.swig', {}, {cache: theme.cache.enable}) }}
 
     <main class="main">
