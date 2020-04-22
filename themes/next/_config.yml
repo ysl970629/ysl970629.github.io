@@ -394,7 +394,7 @@ bookmark:
   save: auto
 
 # `Follow me on GitHub` banner in the top-right corner.
-github_banner:
+github_banner: # 角标 fork me on github
   enable: true
   permalink: https://github.com/ysl970629
   title: Follow me on GitHub
@@ -849,7 +849,7 @@ motion:
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
 # For more information: https://github.com/HubSpot/pace
-pace:
+pace: # 进度条
   enable: true
   # Themes list:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple

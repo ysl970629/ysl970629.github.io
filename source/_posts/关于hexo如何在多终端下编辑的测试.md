@@ -16,7 +16,7 @@ tags: [随笔, 测试文章]
 
 ![abab](https://cdn.jsdelivr.net/gh/ysl970629/public_picture_bed_01@latest//img/20200421172021.png)
 
-![d](https://cdn.jsdelivr.net/gh/ysl970629/public_picture_bed_01@latest//img/00头像.jpg)
+测试角标与加载
 
 测试数学公式：
 
