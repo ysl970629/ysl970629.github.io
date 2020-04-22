@@ -34,6 +34,12 @@ root: /
 
 # 文章太长，截断按钮文字
 excerpt_link: more
+
+# 自动截断文章（测试过了，没效果）
+# auto_excerpt:
+#   enable: true
+#   length: 150
+
 # 文章卡片右下角常驻链接，不需要请设置为false
 show_all_link: '展开全文'
 # 数学公式
