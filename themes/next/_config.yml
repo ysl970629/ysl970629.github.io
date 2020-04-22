@@ -258,17 +258,17 @@ symbols_count_time:
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
 tag_icon: false
 
-# Reward (Donate)
+# Reward (Donate) 打赏 
 # Front-matter variable (unsupport animation).
 reward_settings:
   # If true, reward will be displayed in every article by default.
-  enable: false
+  enable: true
   animation: false
-  #comment: Donate comment here.
+  comment: 谢谢你请我吃糖果
 
 reward:
-  #wechatpay: /images/wechatpay.png
-  #alipay: /images/alipay.png
+  wechatpay: https://cdn.jsdelivr.net/gh/ysl970629/public_picture_bed_01@latest/img/2020-04-21 210252.jpg
+  alipay: https://cdn.jsdelivr.net/gh/ysl970629/public_picture_bed_01@latest/img/2020-04-21 210252(1).jpg
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
 
@@ -277,7 +277,7 @@ reward:
 follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
+  #WeChat: /images/wechat_channel.jpg || fab fa-weixin #微信公众号
   #RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
