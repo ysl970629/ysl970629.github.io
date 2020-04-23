@@ -57,4 +57,4 @@ after_script:
 
 env:
  global:
-   - GH_REF: github.com/ysl970629/sources.git
+   - GH_REF: https://github.com/ysl970629/ysl970629.github.io.git
