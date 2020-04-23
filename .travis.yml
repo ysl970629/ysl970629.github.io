@@ -39,7 +39,7 @@ script:
   - hexo generate
   - echo ${ENV_TEST}
   - hexo deploy
-
+#
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
 # https://docs.travis-ci.com/user/notifications/
