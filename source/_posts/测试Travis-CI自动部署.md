@@ -6,3 +6,7 @@ categories: 测试
 ---
 
 随便写点东西上传，看看Travis CI有没有自动部署
+
+<!--more-->
+
+![图片](https://cdn.jsdelivr.net/gh/ysl970629/public_picture_bed_01@latest/img/20200423140351.png)
