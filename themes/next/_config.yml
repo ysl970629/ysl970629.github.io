@@ -103,7 +103,7 @@ scheme: Muse
 #scheme: Gemini
 
 # Dark Mode 黑暗 夜间 暗黑 深色
-darkmode: false
+darkmode: true
 
 
 # ---------------------------------------------------------------
