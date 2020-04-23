@@ -573,7 +573,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active: livere
+  active: valine
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -617,7 +617,7 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: false
+  enable: true
   appid: WY2acwKFFAITL4uJwrUaASlB-gzGzoHsz
   appkey: bzFm2PGHb9bMQaKW2yFW8rK8
   notify: false # Mail notifier
