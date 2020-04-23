@@ -850,7 +850,7 @@ motion:
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
 # For more information: https://github.com/HubSpot/pace
-pace: # 进度条
+pace: # 进度条 # 
   enable: true
   # Themes list:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
