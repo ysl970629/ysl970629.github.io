@@ -99,7 +99,7 @@ theme: next
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
   type: git
-  # repo: git@github.com:ysl970629/ysl970629.github.io.git
+  #repo: git@github.com:ysl970629/ysl970629.github.io.git
   #下方的gh_token会被.travis.yml中sed命令替换
   repo: https://github_token@github.com/ysl970629/ysl970629.github.io.git
   branch: master
