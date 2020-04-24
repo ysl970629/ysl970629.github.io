@@ -1,8 +1,9 @@
 ---
 title: Hexo站内文章链接
-date: 2020-04-24 10:23:17
 tags: Hexo问题
 categories: Hexo
+abbrlink: d0ffdcbb
+date: 2020-04-24 10:23:17
 ---
 
 此文章来源于Hexo官方中文文档：https://hexo.io/zh-cn/docs/tag-plugins
