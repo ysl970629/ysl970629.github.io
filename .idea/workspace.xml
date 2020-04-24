@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="ce88f98f-5309-49bf-8a12-92f298fbdeb9" name="Default Changelist" comment="" />
+    <list default="true" id="ce88f98f-5309-49bf-8a12-92f298fbdeb9" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/source/_posts/测试Travis-CI自动部署.md" beforeDir="false" afterPath="$PROJECT_DIR$/source/_posts/测试Travis-CI自动部署.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -34,6 +36,7 @@
       <option name="presentableId" value="Default" />
       <updated>1587611718905</updated>
       <workItem from="1587611722968" duration="1000" />
+      <workItem from="1587694896811" duration="1000" />
     </task>
     <servers />
   </component>
