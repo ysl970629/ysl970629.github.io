@@ -108,7 +108,8 @@ deploy:
   repo: https://github_token@github.com/ysl970629/ysl970629.github.io.git
   branch: master
 - type: git
-  repo: https://coding_token@e.coding.net/myheap/ysl970629.coding.me/ysl970629.coding.me.git
+  repo: https://coding_token@git.coding.net/myheap/ysl970629.coding.me.git
+  # git.coding.net/qinyuanpei/qinyuanpei.coding.me.git
   branch: master
 
 # yilia主题的作者要求添加的东西：
