@@ -102,32 +102,35 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type: git
-  #repo: git@github.com:ysl970629/ysl970629.github.io.git
-  #下方的gh_token会被.travis.yml中sed命令替换
+- type: git
+    #repo: git@github.com:ysl970629/ysl970629.github.io.git
+    #下方的gh_token会被.travis.yml中sed命令替换
   repo: https://github_token@github.com/ysl970629/ysl970629.github.io.git
+  branch: master
+- type: git
+  repo: https://coding_token@e.coding.net/myheap/ysl970629.coding.me.git
   branch: master
 
 # yilia主题的作者要求添加的东西：
 
-jsonContent:
-  meta: false
-  pages: false
-  posts:
-    title: true
-    date: true
-    path: true
-    text: false
-    raw: false
-    content: false
-    slug: false
-    updated: false
-    comments: false
-    link: false
-    permalink: false
-    excerpt: false
-    categories: false
-    tags: true
+# jsonContent:
+#   meta: false
+#   pages: false
+#   posts:
+#     title: true
+#     date: true
+#     path: true
+#     text: false
+#     raw: false
+#     content: false
+#     slug: false
+#     updated: false
+#     comments: false
+#     link: false
+#     permalink: false
+#     excerpt: false
+#     categories: false
+#     tags: true
 
 search:
   path: search.xml
