@@ -66,8 +66,8 @@ footer:
   # If not defined, `author` from Hexo `_config.yml` will be used.
   copyright:
 
-  # Powered by Hexo & NexT 强力驱动
-  powered: false
+  # Powered by Hexo & NexT
+  powered: true
 
   # Beian ICP and gongan information for Chinese users. See: http://www.beian.miit.gov.cn, http://www.beian.gov.cn
   beian:
@@ -96,14 +96,14 @@ creative_commons:
 # Scheme Settings
 # ---------------------------------------------------------------
 
-# Schemes #主题 样式
-#scheme: Muse
+# Schemes
+scheme: Muse
 #scheme: Mist
 #scheme: Pisces
-scheme: Gemini
+#scheme: Gemini
 
-# Dark Mode 黑暗 夜间 暗黑 深色
-darkmode: true
+# Dark Mode
+darkmode: false
 
 
 # ---------------------------------------------------------------
@@ -117,10 +117,10 @@ darkmode: true
 # External url should start with http:// or https://
 menu:
   home: / || fa fa-home
-  tags: /tags/ || fa fa-tags
-  categories: /categories/ || fa fa-th
+  #about: /about/ || fa fa-user
+  #tags: /tags/ || fa fa-tags
+  #categories: /categories/ || fa fa-th
   archives: /archives/ || fa fa-archive
-  about: /about/ || fa fa-user
   #schedule: /schedule/ || fa fa-calendar
   #sitemap: /sitemap.xml || fa fa-sitemap
   #commonweal: /404/ || fa fa-heartbeat
@@ -161,13 +161,13 @@ sidebar:
   onmobile: false
 
 # Sidebar Avatar
-avatar: #头像
+avatar:
   # Replace the default image and set the url here.
-  url: https://cdn.jsdelivr.net/gh/ysl970629/public_picture_bed_01@latest//img/00头像.jpg#/images/avatar.gif
+  url: #/images/avatar.gif
   # If true, the avatar will be dispalyed in circle.
-  rounded: true # 圆形头像
+  rounded: false
   # If true, the avatar will be rotated with the cursor.
-  rotated: true # 头像旋转
+  rotated: false
 
 # Posts / Categories / Tags in sidebar.
 site_state: true
@@ -176,16 +176,16 @@ site_state: true
 # Usage: `Key: permalink || icon`
 # Key is the link label showing to end users.
 # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
-social: # 社交
-  GitHub: https://github.com/ysl970629 || fab fa-github #https://github.com/yourname 
-  E-Mail: mailto:ysl_0629@qq.com || fa fa-envelope #mailto:yourname@gmail.com 
-  Weibo: https://weibo.com/u/6003135640?is_all=1 || fab fa-weibo #https://weibo.com/yourname 
+social:
+  #GitHub: https://github.com/yourname || fab fa-github
+  #E-Mail: mailto:yourname@gmail.com || fa fa-envelope
+  #Weibo: https://weibo.com/yourname || fab fa-weibo
   #Google: https://plus.google.com/yourname || fab fa-google
-  Twitter: https://twitter.com/yusli0629_ || fab fa-twitter
-  FB Page: https://www.facebook.com/profile.php?id=100039363857543 || fab fa-facebook
-  Instagram: https://www.instagram.com/ysl0629_/ || fab fa-instagram
-  StackOverflow: https://stackoverflow.com/users/13379393 || fab fa-stack-overflow
+  #Twitter: https://twitter.com/yourname || fab fa-twitter
+  #FB Page: https://www.facebook.com/yourname || fab fa-facebook
+  #StackOverflow: https://stackoverflow.com/yourname || fab fa-stack-overflow
   #YouTube: https://youtube.com/yourname || fab fa-youtube
+  #Instagram: https://instagram.com/yourname || fab fa-instagram
   #Skype: skype:yourname?call|chat || fab fa-skype
 
 social_icons:
@@ -200,10 +200,8 @@ links_settings:
   # Available values: block | inline
   layout: block
 
-links: # 友情链接
-  山东财经大学教务系统: http://jw.sdufe.edu.cn/
-  山财大疫情区块链系统: http://bcfl.sdufe.edu.cn/index/login
-  hexo-theme-next博客主页: https://theme-next.org/
+links:
+  #Title: http://yoursite.com
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).
@@ -234,12 +232,7 @@ chat:
 # ---------------------------------------------------------------
 
 # Automatically excerpt description in homepage as preamble text.
-excerpt_description: flase # 阅读全文
-
-#自动截断不管用
-# auto_excerpt:
-#   enable: true
-#   length: 150
+excerpt_description: true
 
 # Read more button
 # If true, the read more button will be displayed in excerpt section.
@@ -262,19 +255,19 @@ symbols_count_time:
   item_text_total: false
 
 # Use icon instead of the symbol # to indicate the tag at the bottom of the post
-tag_icon: false # 换标签图标
+tag_icon: false
 
-# Reward (Donate) 打赏 
+# Reward (Donate)
 # Front-matter variable (unsupport animation).
 reward_settings:
   # If true, reward will be displayed in every article by default.
-  enable: true
+  enable: false
   animation: false
-  comment: 
+  #comment: Donate comment here.
 
 reward:
-  wechatpay: https://cdn.jsdelivr.net/gh/ysl970629/public_picture_bed_01@latest/img/2020-04-21 210252.jpg
-  alipay: https://cdn.jsdelivr.net/gh/ysl970629/public_picture_bed_01@latest/img/2020-04-21 210252(1).jpg
+  #wechatpay: /images/wechatpay.png
+  #alipay: /images/alipay.png
   #paypal: /images/paypal.png
   #bitcoin: /images/bitcoin.png
 
@@ -283,7 +276,7 @@ reward:
 follow_me:
   #Twitter: https://twitter.com/username || fab fa-twitter
   #Telegram: https://t.me/channel_name || fab fa-telegram
-  #WeChat: /images/wechat_channel.jpg || fab fa-weixin #微信公众号
+  #WeChat: /images/wechat_channel.jpg || fab fa-weixin
   #RSS: /atom.xml || fa fa-rss
 
 # Related popular posts
@@ -357,11 +350,11 @@ android_chrome_color: "#222"
 # Custom Logo (Do not support scheme Mist)
 custom_logo: #/uploads/custom-logo.jpg
 
-codeblock: # 代码块
+codeblock:
   # Code Highlight theme
   # Available values: normal | night | night eighties | night blue | night bright | solarized | solarized dark | galactic
   # See: https://github.com/chriskempson/tomorrow-theme
-  highlight_theme: night eighties #normal
+  highlight_theme: normal
   # Add copy button on codeblock
   copy_button:
     enable: false
@@ -395,9 +388,9 @@ bookmark:
   save: auto
 
 # `Follow me on GitHub` banner in the top-right corner.
-github_banner: # 角标 fork me on github
-  enable: true
-  permalink: https://github.com/ysl970629
+github_banner:
+  enable: false
+  permalink: https://github.com/yourname
   title: Follow me on GitHub
 
 
@@ -573,7 +566,7 @@ comments:
   style: tabs
   # Choose a comment system to be displayed by default.
   # Available values: changyan | disqus | disqusjs | gitalk | livere | valine
-  active: valine
+  active:
   # Setting `true` means remembering the comment system selected by the visitor.
   storage: true
   # Lazyload all comment systems.
@@ -617,35 +610,35 @@ changyan:
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:
-  enable: true
-  appid: WY2acwKFFAITL4uJwrUaASlB-gzGzoHsz
-  appkey: bzFm2PGHb9bMQaKW2yFW8rK8
+  enable: false
+  appid: # Your leancloud application appid
+  appkey: # Your leancloud application appkey
   notify: false # Mail notifier
   verify: false # Verification code
-  placeholder: 写下你的评论... # Comment box placeholder
-  avatar: mm # Gravatar style # varline的头像
+  placeholder: Just go go # Comment box placeholder
+  avatar: mm # Gravatar style
   guest_info: nick,mail,link # Custom comment header
   pageSize: 10 # Pagination size
-  language: #zh-CN # Language, available values: en, zh-cn
+  language: # Language, available values: en, zh-cn
   visitor: false # Article reading statistic
   comment_count: true # If false, comment count will only be displayed in post page, not in home page
   recordIP: false # Whether to record the commenter IP
   serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)
   #post_meta_order: 0
 
-# LiveRe comments system 来必力
+# LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
-livere_uid: #MTAyMC80OTgxNS8yNjMwNg== # <your_uid>
+livere_uid: # <your_uid>
 
 # Gitalk
 # For more information: https://gitalk.github.io, https://github.com/gitalk/gitalk
 gitalk:
   enable: false
-  github_id: #ysl970629 # GitHub repo owner
-  repo: #ysl970629/gitalk_commit_system # Repository name to store issues
-  client_id: #17f6a3cf1ebfc2084b06 # GitHub Application Client ID
-  client_secret: #3e5b6fb5851db9227ad554d6fe8fdb75fa764d79 # GitHub Application Client Secret
-  admin_user: #ysl970629 # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
+  github_id: # GitHub repo owner
+  repo: # Repository name to store issues
+  client_id: # GitHub Application Client ID
+  client_secret: # GitHub Application Client Secret
+  admin_user: # GitHub repo owner and collaborators, only these guys can initialize gitHub issues
   distraction_free_mode: true # Facebook-like distraction free mode
   # Gitalk's display language depends on user's browser or system environment
   # If you want everyone visiting your site to see a uniform language, you can set a force language value
@@ -667,7 +660,8 @@ rating:
 
 # AddThis Share. See: https://www.addthis.com
 # Go to https://www.addthis.com/dashboard to customize your tools.
-add_this_id: ra-5ea18456ed920478
+add_this_id:
+
 
 # ---------------------------------------------------------------
 # Statistics and Analytics
@@ -717,7 +711,7 @@ firestore:
 # Show Views / Visitors of the website / page with busuanzi.
 # Get more information on http://ibruce.info/2015/04/04/busuanzi
 busuanzi_count:
-  enable: true
+  enable: false
   total_visitors: true
   total_visitors_icon: fa fa-user
   total_views: true
@@ -742,10 +736,10 @@ algolia_search:
     hits_empty: "We didn't find any results for the search: ${query}"
     hits_stats: "${hits} results found in ${time} ms"
 
-# Local Search # 站内搜索
+# Local Search
 # Dependencies: https://github.com/theme-next/hexo-generator-searchdb
 local_search:
-  enable: true
+  enable: false
   # If auto, trigger search by changing input.
   # If manual, trigger search by pressing enter key or search button.
   trigger: auto
@@ -849,12 +843,12 @@ motion:
 # Progress bar in the top during page loading.
 # Dependencies: https://github.com/theme-next/theme-next-pace
 # For more information: https://github.com/HubSpot/pace
-pace: # 进度条 # 
-  enable: true
+pace:
+  enable: false
   # Themes list:
   # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
   # corner-indicator | fill-left | flat-top | flash | loading-bar | mac-osx | material | minimal
-  theme: corner-indicator
+  theme: minimal
 
 # JavaScript 3D library.
 # Dependencies: https://github.com/theme-next/theme-next-three
