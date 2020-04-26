@@ -102,14 +102,16 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-- type: git
+  type: git
     #repo: git@github.com:ysl970629/ysl970629.github.io.git
     #下方的gh_token会被.travis.yml中sed命令替换
-  repo: https://github_token@github.com/ysl970629/ysl970629.github.io.git
+  repo: 
+    https://github_token@github.com/ysl970629/ysl970629.github.io.git
+    https://ysl970629:coding_token@git.coding.net/ysl970629/ysl970629.coding.me.git
   branch: master
-- type: git
-  repo: https://ysl970629:coding_token@git.coding.net/ysl970629/ysl970629.coding.me.git
-  branch: master
+# - type: git
+#   repo: https://ysl970629:coding_token@git.coding.net/ysl970629/ysl970629.coding.me.git
+#   branch: master
 
 # yilia主题的作者要求添加的东西：
 
@@ -353,8 +355,8 @@ theme_config:
 
   links: # 友情链接
     山东财经大学教务系统: http://jw.sdufe.edu.cn/
-    山财大疫情区块链系统: http://bcfl.sdufe.edu.cn/index/login
     hexo-theme-next博客主页: https://theme-next.org/
+    coding升级公告: https://coding.net/products/upgrade
 
   # Table of Contents in the Sidebar
   # Front-matter variable (unsupport wrap expand_all).

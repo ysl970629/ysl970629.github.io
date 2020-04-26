@@ -28,6 +28,7 @@ install:
   - npm install hexo-deployer-git --save
   
   # 设置git提交名，邮箱；替换真实token到_config.yml文件
+
 before_script:
   - git config user.name "ysl970629"
   - git config user.email "1097985743@qq.com"
@@ -45,11 +46,12 @@ script:
 # after_script:
 #   - cd ./public
 #   - git init
-#   - git config user.name "ysl970629"
-#   - git config user.email "1097985743@qq.com"
+#   # - git config user.name "ysl970629"
+#   # - git config user.email "1097985743@qq.com"
 #   - git add .
 #   - git commit -m "update"
-#   - git push --force --quiet "https://@{GH_TOKEN}@"
+#   #- git push --force --quiet "https://${GH_TOKEN}@${GH_REPO}" master:master
+#   - git push --force --quiet "https://ysl970629:${IXCZXIaKzJ}@${CO_REPO}" master:master
 
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
