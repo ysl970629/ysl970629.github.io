@@ -107,9 +107,9 @@ deploy:
     #下方的gh_token会被.travis.yml中sed命令替换
   repo: https://github_token@github.com/ysl970629/ysl970629.github.io.git
   branch: master
-# - type: git
-#   repo: https://coding_token@e.coding.net/myheap/ysl970629.coding.me.git
-#   branch: master
+- type: git
+  repo: https://myheap:coding_token@git.coding.net/ysl970629/ysl970629.coding.me.git
+  branch: master
 
 # yilia主题的作者要求添加的东西：
 

@@ -5,8 +5,8 @@ node_js: 12
 
 env:
  global:
-   - URL_REPO: github.com/ysl970629/ysl970629.github.io.git
-   - CO_REF: e.coding.net/myheap/ysl970629.coding.me.git
+   - GH_REPO: github.com/ysl970629/ysl970629.github.io.git
+   - CO_REPO: e.coding.net/myheap/ysl970629.coding.me.git
 
 # 设置钩子只检测blog-source分支的push变动
 branches:
@@ -41,6 +41,15 @@ script:
   - hexo generate
   - echo ${ENV_TEST}
   - hexo deploy
+
+# after_script:
+#   - cd ./public
+#   - git init
+#   - git config user.name "ysl970629"
+#   - git config user.email "1097985743@qq.com"
+#   - git add .
+#   - git commit -m "update"
+#   - git push --force --quiet "https://@{GH_TOKEN}@"
 
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
