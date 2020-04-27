@@ -19,7 +19,7 @@ date: 2020-04-24 10:23:17
 
 在使用此标签时可以忽略文章文件所在的路径或者文章的永久链接信息、如语言、日期。
 
-例如，在文章中使用 `{% post_link how-to-bake-a-cake %}` 时，只需有一个名为 `how-to-bake-a-cake.md` 的文章文件即可。即使这个文件位于站点文件夹的 `source/posts/2015-02-my-family-holiday` 目录下、或者文章的永久链接是 `2018/en/how-to-bake-a-cake`，都没有影响。
+例如，在文章中使用 ```{% post_link how-to-bake-a-cake %}``` 时，只需有一个名为 ```how-to-bake-a-cake.md``` 的文章文件即可。即使这个文件位于站点文件夹的 ```source/posts/2015-02-my-family-holiday``` 目录下、或者文章的永久链接是 ```2018/en/how-to-bake-a-cake```，都没有影响。
 
 <!--more-->
 
@@ -66,6 +66,8 @@ date: 2020-04-24 10:23:17
 {% post_link 我的小破站 %}
 
 {% post_link 我的小破站 '小破站' %}
+
+```public static void main(String[] ags)```
 
 ```
 {% post_link 我的小破站 %}
