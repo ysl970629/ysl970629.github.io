@@ -388,7 +388,7 @@ theme_config:
   # ---------------------------------------------------------------
 
   # Automatically excerpt description in homepage as preamble text.
-  excerpt_description: flase # 阅读全文
+  excerpt_description: false # 阅读全文
 
   #自动截断不管用
   # auto_excerpt:
@@ -405,7 +405,7 @@ theme_config:
     created_at: true
     updated_at:
       enable: true
-      another_day: false
+      another_day: true
     categories: true
 
   # Post wordcount display settings
@@ -532,10 +532,10 @@ theme_config:
     scrollpercent: false
 
   # Reading progress bar
-  reading_progress:
-    enable: true
+  reading_progress: # 阅读进度
+    enable: false
     # Available values: top | bottom
-    position: top
+    position: bottom
     color: "#37c6c0"
     height: 3px
 
@@ -821,7 +821,7 @@ theme_config:
 
   # AddThis Share. See: https://www.addthis.com
   # Go to https://www.addthis.com/dashboard to customize your tools.
-  add_this_id: ra-5ea18456ed920478
+  add_this_id: ra-5ea18456ed920478 # 分享系统
 
   # ---------------------------------------------------------------
   # Statistics and Analytics
