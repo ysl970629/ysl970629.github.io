@@ -67,11 +67,12 @@ date: 2020-04-24 10:23:17
 
 {% post_link 我的小破站 '小破站' %}
 
-```public static void main(String[] ags)```
-
 ```
 {% post_link 我的小破站 %}
 
 {% post_link 我的小破站 '小破站' %}
 ```
 
+```
+public static void main(String[] ags)
+```
