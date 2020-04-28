@@ -52,7 +52,7 @@ script:
 #   - git commit -m "update"
 #   #- git push --force --quiet "https://${GH_TOKEN}@${GH_REPO}" master:master
 #   - git push --force --quiet "https://ysl970629:${IXCZXIaKzJ}@${CO_REPO}" master:master
-#
+
 
 # configure notifications (email, IRC, campfire etc)
 # please update this section to your needs!
