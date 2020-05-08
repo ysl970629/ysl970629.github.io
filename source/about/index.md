@@ -18,6 +18,7 @@ date: 2020-04-22 21:34:54
 <center><a href="http://linux.vbird.org/">鸟哥的Linux私房菜</a>
 <center><a href="https://git-scm.com/book/zh/v2">pro-git-book</a>
 <center><a href="https://linuxtools-rst.readthedocs.io/zh_CN/latest/">Linux工具快速教程</a>
+<center><a href="https://linmi.cc/">notion中文社区</a>
 <br>
 <br>
 <br>
