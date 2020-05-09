@@ -32,6 +32,13 @@ date: 2020-04-22 21:34:54
 <br>
 <br>
 <br>
+<center><b>算法:</b>
+<br>
+<br>
+<center><a href="https://thealgorithms.github.io/">thealgorithms博客</a>
+<br>
+<br>
+<br>
 <br>
 <br>
 
