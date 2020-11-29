@@ -1,5 +1,5 @@
 ---
-title: hexo-local-image
+title: Hexo加载本地图片
 abbrlink: 56cd5f86
 date: 2020-11-29 19:39:34
 tags:
