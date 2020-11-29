@@ -45,7 +45,7 @@ external_link:
   exclude: ''
 filename_case: 0
 render_drafts: false
-post_asset_folder: false
+post_asset_folder: true
 relative_link: false
 future: true
 highlight:
@@ -105,7 +105,7 @@ deploy:
 - type: git
     #repo: git@github.com:ysl970629/ysl970629.github.io.git
     #下方的gh_token会被.travis.yml中sed命令替换
-  repo: 
+  repo:
     https://github_token@github.com/ysl970629/ysl970629.github.io.git
   branch: master
 - type: git
@@ -329,9 +329,9 @@ theme_config:
   # Key is the link label showing to end users.
   # Value before `||` delimiter is the target permalink, value after `||` delimiter is the name of Font Awesome icon.
   social: # 社交
-    GitHub: https://github.com/ysl970629 || fab fa-github #https://github.com/yourname 
-    E-Mail: mailto:ysl_0629@qq.com || fa fa-envelope #mailto:yourname@gmail.com 
-    Weibo: https://weibo.com/u/6003135640?is_all=1 || fab fa-weibo #https://weibo.com/yourname 
+    GitHub: https://github.com/ysl970629 || fab fa-github #https://github.com/yourname
+    E-Mail: mailto:ysl_0629@qq.com || fa fa-envelope #mailto:yourname@gmail.com
+    Weibo: https://weibo.com/u/6003135640?is_all=1 || fab fa-weibo #https://weibo.com/yourname
     #Google: https://plus.google.com/yourname || fab fa-google
     Twitter: https://twitter.com/yusli0629_ || fab fa-twitter
     FB Page: https://www.facebook.com/profile.php?id=100039363857543 || fab fa-facebook
@@ -417,13 +417,13 @@ theme_config:
   # Use icon instead of the symbol # to indicate the tag at the bottom of the post
   tag_icon: false # 换标签图标
 
-  # Reward (Donate) 打赏 
+  # Reward (Donate) 打赏
   # Front-matter variable (unsupport animation).
   reward_settings:
     # If true, reward will be displayed in every article by default.
     enable: true
     animation: false
-    comment: 
+    comment:
 
   reward:
     wechatpay: https://cdn.jsdelivr.net/gh/ysl970629/public_picture_bed_01@latest/img/2020-04-21 210252.jpg
@@ -1002,7 +1002,7 @@ theme_config:
   # Progress bar in the top during page loading.
   # Dependencies: https://github.com/theme-next/theme-next-pace
   # For more information: https://github.com/HubSpot/pace
-  pace: # 进度条 # 
+  pace: # 进度条 #
     enable: true
     # Themes list:
     # big-counter | bounce | barber-shop | center-atom | center-circle | center-radar | center-simple
