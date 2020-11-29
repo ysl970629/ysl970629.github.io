@@ -14,6 +14,8 @@ categories:
 
 第一步：安装插件，在hexo根目录打开Git Bash,执行
 
+<!--more-->
+
 ```text
 // npm install hexo-asset-image --save
 
