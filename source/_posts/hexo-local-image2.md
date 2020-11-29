@@ -1,7 +1,7 @@
 ---
-title: hexo-local-image
-abbrlink: 56cd5f86
-date: 2020-11-29 19:39:34
+title: hexo在本地显示图片
+abbrlink: a36dd757
+date: 2020-11-29 19:01:44
 tags:
 categories:
 ---
@@ -100,15 +100,11 @@ hexo.extend.filter.register('after_post_render', function(data){
 ![这是代替图片的文字，随便写](2020-11-29-19-02-04.png)
 ```
 
-注意不要有中文，并且如果改了文章文件名，同名的附件文件夹也要改成相同的名字
-
 然后就……完事了。
 
-![picture 3](hexo-local-image/2020-11-29-19-40-25.png)
-
+![这是代替图片的文字，随便写](2020-11-29-19-02-04.png)
 
 参考链接：
 
 - https://blog.csdn.net/xjm850552586/article/details/84101345
 - https://blog.csdn.net/qq_38148394/article/details/79997971
-
