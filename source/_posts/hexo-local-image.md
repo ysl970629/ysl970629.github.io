@@ -104,7 +104,7 @@ hexo.extend.filter.register('after_post_render', function(data){
 
 然后就……完事了。
 
-![picture3](hexo-local-image/2020-11-29-19-40-25.png)
+![picture4](./hexo-local-image/2020-11-29-19-40-25.png)
 
 
 参考链接：
