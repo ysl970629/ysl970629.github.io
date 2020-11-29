@@ -1,0 +1,15 @@
+{
+  "editor.formatOnSave": true,
+  // "editor.formatOnType": true,
+  "markdown-image.local.path": "/assets/image",
+  "editor.minimap.enabled": false,
+  "editor.wrappingIndent": "indent",
+  "editor.overviewRulerBorder": false,
+  "editor.lineHeight": 24,
+  "workbench.colorTheme": "Gruvbox Dark Hard",
+  "git.enableSmartCommit": true,
+  "git.postCommitCommand": "sync",
+  "vscodeMarkdownNotes.noteCompletionConvention": "noExtension",
+  "vscodeMarkdownNotes.slugifyMethod": "github-slugger",
+  "hexo.generateTimeFormat": "YYYY-MM-DD HH:mm:ss"
+}
