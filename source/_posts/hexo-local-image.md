@@ -45,6 +45,8 @@ npm install https://github.com/CodeFalling/hexo-asset-image --save
 
 ![picture7](hexo-local-image/2020-11-29-19-40-25.png)
 
+![picture5](hexo-local-image/2020-11-29-20-59-33.png)
+
 参考链接：
 
 - https://blog.csdn.net/xjm850552586/article/details/84101345
