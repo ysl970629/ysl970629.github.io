@@ -82,7 +82,7 @@ date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## Use post's date for updated date unless set in front-matter
 # use_date_for_updated: true # 文章更新日期。设置为true将不显示更新日期。设置成false会显示出来
-update_option: 'date'
+# update_option: 'front-matter'  # 2020-11-29 关闭文章更新日期，因为不准确
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -623,7 +623,8 @@ theme_config:
 
   # Google Webmaster tools verification.
   # See: https://www.google.com/webmasters
-  google_site_verification:
+  google_site_verification: gKNVOYbFPuBJzjqvnn652-CYWF2U-lQiejoLTXhZfwk
+
 
   # Bing Webmaster tools verification.
   # See: https://www.bing.com/webmaster
@@ -635,6 +636,7 @@ theme_config:
 
   # Baidu Webmaster tools verification.
   # See: https://ziyuan.baidu.com/site
+  # 我自己的补充： https://ziyuan.baidu.com/https/index?site=https://ysl970629.github.io/
   baidu_site_verification: code-w1HF6XYOAb  # 2020-11-29
 
   # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
