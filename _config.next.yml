@@ -655,9 +655,10 @@ isso: # <data_isso>
 # Valine
 # For more information: https://valine.js.org, https://github.com/xCss/Valine
 valine:  # 2020-11-29
+# 需要在国际版leancloud里设置安全域名。参见：https://guanqr.com/tech/website/hexo-theme-next-comments/
   enable: true  # 2020-11-29
-  appId:  a0WAs1lw9hUDrpWmuqVc8bqD-gzGzoHsz # 2020-11-29
-  appKey: suUJIbmLnBGsxyxoxJqHxMgU  # 2020-11-29
+  appId:  f8FLjTWsKkdxHhmlhnHyvK6o-MdYXbMMI # 2020-11-29
+  appKey: 0aa9z8gRXlm6cczqYR1WQBxj  # 2020-11-29
   notify: false # Mail notifier  # 2020-11-29
   verify: false # Verification code  # 2020-11-29
   placeholder: 写下你的评论... # Comment box placeholder  # 2020-11-29
