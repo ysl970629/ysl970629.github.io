@@ -46,7 +46,7 @@ external_link:
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
-relative_link: true
+relative_link: false
 future: true
 highlight:
   enable: true
@@ -81,7 +81,8 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## Use post's date for updated date unless set in front-matter
-use_date_for_updated: true # 文章更新日期。设置为true将不显示更新日期。设置成false会显示出来
+# use_date_for_updated: true # 文章更新日期。设置为true将不显示更新日期。设置成false会显示出来
+update_option: 'date'
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -655,13 +656,13 @@ theme_config:
     # Default (true) will load mathjax / katex script on demand.
     # That is it only render those page which has `mathjax: true` in Front-matter.
     # If you set it to false, it will load mathjax / katex srcipt EVERY PAGE.
-    per_page: true
+    per_page: false
 
     # hexo-renderer-pandoc (or hexo-renderer-kramed) required for full MathJax support.
     mathjax:
-      enable: false
+      enable: true
       # See: https://mhchem.github.io/MathJax-mhchem/
-      mhchem: false
+      mhchem: true
 
     # hexo-renderer-markdown-it-plus (or hexo-renderer-markdown-it with markdown-it-katex plugin) required for full Katex support.
     katex:
