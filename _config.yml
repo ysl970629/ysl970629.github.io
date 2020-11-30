@@ -4,8 +4,8 @@
 
 # Site
 title: YuSLi的部落阁
-subtitle: '默默无闻的小卒'
-description: ''
+subtitle: "默默无闻的小卒"
+description: ""
 keywords:
 author: YuSLi
 language: zh-CN
@@ -13,13 +13,13 @@ timezone: Asia/Shanghai
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url:  https://ysl970629.github.io # http://yoursite.com/
+url: https://ysl970629.github.io # http://yoursite.com/
 root: /
 # permalink: :year/:month/:day/:title/
 permalink: posts/:abbrlink/
 abbrlink:
-    alg: crc32   #算法： crc16(default) and crc32
-    rep: hex     #进制： dec(default) and hex
+  alg: crc32 #算法： crc16(default) and crc32
+  rep: hex #进制： dec(default) and hex
 # permalink_defaults:
 pretty_urls:
   trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
@@ -42,7 +42,7 @@ titlecase: false # Transform title into titlecase
 external_link:
   enable: false # 不要从新窗口打开链接
   field: site # Apply to the whole site
-  exclude: ''
+  exclude: ""
 filename_case: 0
 render_drafts: false
 post_asset_folder: true
@@ -52,7 +52,7 @@ highlight:
   enable: true
   line_number: true
   auto_detect: true
-  tab_replace: ''
+  tab_replace: ""
   wrap: false
   hljs: false
 
@@ -61,7 +61,7 @@ highlight:
 # per_page: Posts displayed per page. (0 = disable pagination)
 # order_by: Posts order. (Order by date descending by default)
 index_generator:
-  path: ''
+  path: ""
   per_page: 10
   order_by: -date
 
@@ -103,15 +103,15 @@ theme: next
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-- type: git
-    #repo: git@github.com:ysl970629/ysl970629.github.io.git
-    #下方的gh_token会被.travis.yml中sed命令替换
-  repo:
-    https://github_token@github.com/ysl970629/ysl970629.github.io.git
-  branch: master
-- type: git
-  repo: https://IXCZXIaKzJ:coding_token@e.coding.net/myheap/ysl970629.coding.me.git
-  branch: master
+  - type:
+      git
+      #repo: git@github.com:ysl970629/ysl970629.github.io.git
+      #下方的gh_token会被.travis.yml中sed命令替换
+    repo: https://github_token@github.com/ysl970629/ysl970629.github.io.git
+    branch: master
+  - type: git
+    repo: https://IXCZXIaKzJ:coding_token@e.coding.net/myheap/ysl970629.coding.me.git
+    branch: master
 
 # yilia主题的作者要求添加的东西：
 
@@ -186,7 +186,6 @@ theme_config:
     #mixin: source/_data/mixins.styl
     #style: source/_data/styles.styl
 
-
   # ---------------------------------------------------------------
   # Site Information Settings
   # See: https://theme-next.org/docs/getting-started/
@@ -205,7 +204,7 @@ theme_config:
 
   footer:
     # Specify the date when the site was setup. If not defined, current year will be used.
-    since: 2020  # 2020-11-29
+    since: 2020 # 2020-11-29
 
     # Icon between year and copyright info.
     icon:
@@ -240,10 +239,9 @@ theme_config:
   # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
   creative_commons:
     license: by-nc-sa
-    sidebar: true  # 2020-11-29
+    sidebar: true # 2020-11-29
     post: false
     language:
-
 
   # ---------------------------------------------------------------
   # Scheme Settings
@@ -257,7 +255,6 @@ theme_config:
 
   # Dark Mode 黑暗 夜间 暗黑 深色
   darkmode: true
-
 
   # ---------------------------------------------------------------
   # Menu Settings
@@ -282,7 +279,6 @@ theme_config:
   menu_settings:
     icons: true
     badges: false
-
 
   # ---------------------------------------------------------------
   # Sidebar Settings
@@ -380,7 +376,6 @@ theme_config:
     icon: fa fa-comment # Icon name in Font Awesome, set false to disable icon.
     text: Chat # Button text, change it as you wish.
 
-
   # ---------------------------------------------------------------
   # Post Settings
   # See: https://theme-next.org/docs/theme-settings/posts
@@ -463,7 +458,6 @@ theme_config:
   # Available values: left | right | false
   post_navigation: left
 
-
   # ---------------------------------------------------------------
   # Custom Page Settings
   # See: https://theme-next.org/docs/theme-settings/custom-pages
@@ -489,7 +483,6 @@ theme_config:
     showDeleted: false
     singleEvents: true
     maxResults: 250
-
 
   # ---------------------------------------------------------------
   # Misc Theme Settings
@@ -519,16 +512,16 @@ theme_config:
     copy_button:
       enable: false
       # Show text copy result.
-      show_result: default  # 2020-11-29
+      show_result: default # 2020-11-29
       # Available values: default | flat | mac
       style:
 
   back2top:
     enable: true
     # Back to top in sidebar.
-    sidebar: true  # 2020-11-29
+    sidebar: true # 2020-11-29
     # Scroll percent label in b2t button.
-    scrollpercent: true  # 2020-11-29
+    scrollpercent: true # 2020-11-29
 
   # Reading progress bar
   reading_progress: # 阅读进度
@@ -540,7 +533,7 @@ theme_config:
 
   # Bookmark Support
   bookmark:
-    enable: true  # 2020-11-29
+    enable: true # 2020-11-29
     # Customize the color of the bookmark.
     color: "#222"
     # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
@@ -552,7 +545,6 @@ theme_config:
     enable: true
     permalink: https://github.com/ysl970629
     title: Follow me on GitHub
-
 
   # ---------------------------------------------------------------
   # Font Settings
@@ -606,9 +598,9 @@ theme_config:
       external: true
       family:
 
-
   # ---------------------------------------------------------------
   # SEO Settings
+  # 参考：https://theme-next.js.org/docs/theme-settings/seo
   # ---------------------------------------------------------------
 
   # Disable Baidu transformation on mobile devices.
@@ -616,15 +608,14 @@ theme_config:
 
   # If true, site-subtitle will be added to index page.
   # Remember to set up your site-subtitle in Hexo `_config.yml` (e.g. subtitle: Subtitle)
-  index_with_subtitle: true  # 2020-11-29
+  index_with_subtitle: true # 2020-11-29
 
   # Automatically add external URL with Base64 encrypt & decrypt.
   exturl: false
 
   # Google Webmaster tools verification.
   # See: https://www.google.com/webmasters
-  google_site_verification: gKNVOYbFPuBJzjqvnn652-CYWF2U-lQiejoLTXhZfwk
-
+  google_site_verification: gKNVOYbFPuBJzjqvnn652-CYWF2U-lQiejoLTXhZfwk # 2020-11-29
 
   # Bing Webmaster tools verification.
   # See: https://www.bing.com/webmaster
@@ -637,11 +628,10 @@ theme_config:
   # Baidu Webmaster tools verification.
   # See: https://ziyuan.baidu.com/site
   # 我自己的补充： https://ziyuan.baidu.com/https/index?site=https://ysl970629.github.io/
-  baidu_site_verification: code-w1HF6XYOAb  # 2020-11-29
+  baidu_site_verification: code-w1HF6XYOAb # 2020-11-29
 
   # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
   baidu_push: true
-
 
   # ---------------------------------------------------------------
   # Third Party Plugins & Services Settings
@@ -715,7 +705,6 @@ theme_config:
     # For more flexibility you can add some patterns (RegExp, Function, or Array) to ignores.
     # See: https://github.com/GoogleChromeLabs/quicklink#custom-ignore-patterns
     ignores:
-
 
   # ---------------------------------------------------------------
   # Comments Settings
@@ -807,7 +796,6 @@ theme_config:
     # Available values: en | es-ES | fr | ru | zh-CN | zh-TW
     language:
 
-
   # ---------------------------------------------------------------
   # Post Widgets & Content Sharing Services
   # See: https://theme-next.org/docs/third-party-services/post-widgets
@@ -817,8 +805,8 @@ theme_config:
   # To get your ID visit https://widgetpack.com
   rating:
     enable: false
-    id:     # <app_id>
-    color:  fc6423
+    id: # <app_id>
+    color: fc6423
 
   # AddThis Share. See: https://www.addthis.com
   # Go to https://www.addthis.com/dashboard to customize your tools.
@@ -880,7 +868,6 @@ theme_config:
     post_views: true
     post_views_icon: fa fa-eye
 
-
   # ---------------------------------------------------------------
   # Search Services
   # See: https://theme-next.org/docs/third-party-services/search-services
@@ -914,7 +901,6 @@ theme_config:
   # Swiftype Search API Key
   swiftype_key:
 
-
   # ---------------------------------------------------------------
   # Chat Services
   # See: https://theme-next.org/docs/third-party-services/chat-services
@@ -935,7 +921,6 @@ theme_config:
   tidio:
     enable: false
     key: # Public Key, get it from dashboard. See: https://www.tidiochat.com/panel/settings/developer
-
 
   # ---------------------------------------------------------------
   # Tags Settings
@@ -975,7 +960,6 @@ theme_config:
     enable: false
     # Available themes: default | dark | forest | neutral
     theme: forest
-
 
   # ---------------------------------------------------------------
   # Animation Settings
@@ -1027,7 +1011,6 @@ theme_config:
     size: 300 # The width of the ribbon
     alpha: 0.6 # The transparency of the ribbon
     zIndex: -1 # The display level of the ribbon
-
 
   #! ---------------------------------------------------------------
   #! DO NOT EDIT THE FOLLOWING SETTINGS
