@@ -84,7 +84,7 @@ time_format: HH:mm:ss
 # use_date_for_updated: false # 文章更新日期。设置为true将不显示更新日期。设置成false会显示出来
 # update_at: true
 # https://hexo.io/docs/configuration#Date-Time-format
-update_option: 'date'  # 2020-11-29 关闭文章更新日期，因为不准确
+update_option: 'empty'  # 2020-11-29 关闭文章更新日期，因为不准确
 
 # Pagination
 ## Set per_page to 0 to disable pagination

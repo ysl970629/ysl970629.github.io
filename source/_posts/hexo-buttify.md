@@ -13,7 +13,7 @@ https://aoenian.github.io/2018/08/06/next-theme-customized-1/
 
 比如行内代码背景加深
 
-close "update at"
+make update "empty"
 
 测试一下代码块高亮
 
