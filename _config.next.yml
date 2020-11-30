@@ -614,7 +614,7 @@ disqusjs:
 changyan:
   enable: true  # 2020-11-29
   appid: cyvblPjsv  # 2020-11-29
-  appkey: prod_e740d353a882d473f0502b1055525672  # 2020-11-29
+  appkey: 689a13afac8d08ff27dc3e16be415276  # 2020-11-29
 
 # LiveRe comments system
 # You can get your uid from https://livere.com/insight/myCode (General web site)
