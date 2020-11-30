@@ -205,7 +205,7 @@ theme_config:
 
   footer:
     # Specify the date when the site was setup. If not defined, current year will be used.
-    #since: 2015
+    since: 2020  # 2020-11-29
 
     # Icon between year and copyright info.
     icon:
@@ -240,7 +240,7 @@ theme_config:
   # CC licenses are available in 39 languages, you can find the specific and correct abbreviation you need on https://creativecommons.org
   creative_commons:
     license: by-nc-sa
-    sidebar: false
+    sidebar: true  # 2020-11-29
     post: false
     language:
 
@@ -519,16 +519,16 @@ theme_config:
     copy_button:
       enable: false
       # Show text copy result.
-      show_result: false
+      show_result: default  # 2020-11-29
       # Available values: default | flat | mac
       style:
 
   back2top:
     enable: true
     # Back to top in sidebar.
-    sidebar: false
+    sidebar: true  # 2020-11-29
     # Scroll percent label in b2t button.
-    scrollpercent: false
+    scrollpercent: true  # 2020-11-29
 
   # Reading progress bar
   reading_progress: # 阅读进度
@@ -540,7 +540,7 @@ theme_config:
 
   # Bookmark Support
   bookmark:
-    enable: false
+    enable: true  # 2020-11-29
     # Customize the color of the bookmark.
     color: "#222"
     # If auto, save the reading progress when closing the page or clicking the bookmark-icon.
@@ -616,7 +616,7 @@ theme_config:
 
   # If true, site-subtitle will be added to index page.
   # Remember to set up your site-subtitle in Hexo `_config.yml` (e.g. subtitle: Subtitle)
-  index_with_subtitle: false
+  index_with_subtitle: true  # 2020-11-29
 
   # Automatically add external URL with Base64 encrypt & decrypt.
   exturl: false
@@ -635,7 +635,7 @@ theme_config:
 
   # Baidu Webmaster tools verification.
   # See: https://ziyuan.baidu.com/site
-  baidu_site_verification: pDwEowNn5s
+  baidu_site_verification: code-w1HF6XYOAb  # 2020-11-29
 
   # Enable baidu push so that the blog will push the url to baidu automatically which is very helpful for SEO.
   baidu_push: true

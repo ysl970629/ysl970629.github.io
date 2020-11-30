@@ -6,6 +6,9 @@ tags:
 categories:
 ---
 
+
+hexo配置文档：http://theme-next.iissnan.com/third-party-services.html
+
 https://aoenian.github.io/2018/08/06/next-theme-customized-1/
 
 比如行内代码背景加深
