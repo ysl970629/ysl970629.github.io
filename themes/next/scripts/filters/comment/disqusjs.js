@@ -6,8 +6,8 @@ const path = require('path');
 
 // Add comment
 hexo.extend.filter.register('theme_inject', injects => {
-  let theme = hexo.theme.config;
-  if (!theme.disqusjs.enable || !theme.disqusjs.shortname || !theme.disqusjs.apikey) return;
+  const config = hexo.theme.config.disqus;
+  if (!config.enable || !config.shortname || !config.apikey) return;
 
   injects.comment.raw('disqusjs', `
   <div class="comments">
@@ -17,6 +17,6 @@ hexo.extend.filter.register('theme_inject', injects => {
   </div>
   `, {}, {cache: true});
 
-  injects.bodyEnd.file('disqusjs', path.join(hexo.theme_dir, 'layout/_third-party/comments/disqusjs.swig'));
+  injects.bodyEnd.file('disqusjs', path.join(hexo.theme_dir, 'layout/_third-party/comments/disqusjs.njk'));
 
 });

@@ -27,13 +27,13 @@ date: 2020-04-24 10:23:17
 
 默认对文章的标题和自定义标题里的特殊字符进行转义。可以使用`escape`选项，禁止对特殊字符进行转义。
 
-**链接使用文章的标题** 
+**链接使用文章的标题**
 
 ```
 {% post_link hexo-3-8-released %}
 ```
 
-[Hexo 3.8.0 Released](https://hexo.io/news/2018/10/19/hexo-3-8-released/) 
+[Hexo 3.8.0 Released](https://hexo.io/news/2018/10/19/hexo-3-8-released/)
 
 **链接使用自定义文字**
 
@@ -41,9 +41,9 @@ date: 2020-04-24 10:23:17
 {% post_link hexo-3-8-released '通往文章的链接' %}
 ```
 
-[通往文章的链接](https://hexo.io/news/2018/10/19/hexo-3-8-released/) 
+[通往文章的链接](https://hexo.io/news/2018/10/19/hexo-3-8-released/)
 
-**对标题的特殊字符进行转义** 
+**对标题的特殊字符进行转义**
 
 ```
 {% post_link hexo-4-released 'How to use <b> tag in title' %}
@@ -51,7 +51,7 @@ date: 2020-04-24 10:23:17
 
 [How to use  tag in title](https://hexo.io/news/2019/10/14/hexo-4-released/)
 
-**禁止对标题的特殊字符进行转义** 
+**禁止对标题的特殊字符进行转义**
 
 ```
 {% post_link hexo-4-released '<b>bold</b> custom title' false %}
@@ -66,6 +66,10 @@ date: 2020-04-24 10:23:17
 {% post_link 我的小破站 %}
 
 {% post_link 我的小破站 '小破站' %}
+
+{% post_link aabbs 'somethings' %}
+
+[asjdj](http://www.ajajsdjadhfgahasjdjasjdasjfjsjdkhfgksjdhfkasdhfdfasdfh.com)
 
 ```
 {% post_link 我的小破站 %}
