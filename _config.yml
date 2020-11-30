@@ -81,8 +81,8 @@ meta_generator: true
 date_format: YYYY-MM-DD
 time_format: HH:mm:ss
 ## Use post's date for updated date unless set in front-matter
-# use_date_for_updated: true # 文章更新日期。设置为true将不显示更新日期。设置成false会显示出来
-# update_option: 'front-matter'  # 2020-11-29 关闭文章更新日期，因为不准确
+# use_date_for_updated: false # 文章更新日期。设置为true将不显示更新日期。设置成false会显示出来
+update_option: 'mtime'  # 2020-11-29 关闭文章更新日期，因为不准确
 
 # Pagination
 ## Set per_page to 0 to disable pagination
@@ -219,7 +219,7 @@ theme_config:
     copyright:
 
     # Powered by Hexo & NexT 强力驱动
-    powered: false
+    powered: true  # 2020-11-29
 
     # Beian ICP and gongan information for Chinese users. See: http://www.beian.miit.gov.cn, http://www.beian.gov.cn
     beian:
@@ -512,7 +512,7 @@ theme_config:
     copy_button:
       enable: false
       # Show text copy result.
-      show_result: default # 2020-11-29
+      show_result: false # 2020-11-29
       # Available values: default | flat | mac
       style:
 
