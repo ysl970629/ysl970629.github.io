@@ -36,3 +36,12 @@ c^2 = a^2 + b^2
 $$
 
 行内公式 $c^2$ 行内公式
+
+<!--more-->
+
+过渡到新版本：
+
+hexo官方文档：
+https://theme-next.js.org/docs/getting-started/configuration.html
+
+新版仓库的中文discuss：https://github.com/next-theme/hexo-theme-next/issues/4
