@@ -17,7 +17,7 @@ make update "empty"
 close article update
 test changyan comment platform
 test valine
-test gitee deploy
+test gitee deploy2
 
 测试一下代码块高亮
 
