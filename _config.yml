@@ -130,26 +130,6 @@ symbols_count_time:
   wpm: 300
   suffix: "mins."
 
-
-# Valine
-# For more information: https://valine.js.org, https://github.com/xCss/Valine
-valine:  # 2020-11-29
-  enable: true  # 2020-11-29
-  appid: WY2acwKFFAITL4uJwrUaASlB-gzGzoHsz  # 2020-11-29
-  appkey: bzFm2PGHb9bMQaKW2yFW8rK8  # 2020-11-29
-  notify: false # Mail notifier  # 2020-11-29
-  verify: false # Verification code  # 2020-11-29
-  placeholder: 写下你的评论... # Comment box placeholder  # 2020-11-29
-  avatar: mm # Gravatar style # varline的头像  # 2020-11-29
-  guest_info: nick,mail,link # Custom comment header  # 2020-11-29
-  pageSize: 10 # Pagination size  # 2020-11-29
-  language: #zh-CN # Language, available values: en, zh-cn  # 2020-11-29
-  visitor: false # Article reading statistic  # 2020-11-29
-  comment_count: true # If false, comment count will only be displayed in post page, not in home page  # 2020-11-29
-  recordIP: false # Whether to record the commenter IP  # 2020-11-29
-  serverURLs: # When the custom domain name is enabled, fill it in here (it will be detected automatically by default, no need to fill in)  # 2020-11-29
-  #post_meta_order: 0  # 2020-11-29
-
 # theme_config:
 #   # ---------------------------------------------------------------
 #   # Theme Core Configuration Settings
