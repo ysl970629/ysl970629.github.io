@@ -167,8 +167,10 @@ links_settings:
 
 links:
     hexo-theme-next博客主页: https://theme-next.js.org/  # 2020-11-29
-    本站国外地址: https://ysl970629.github.io/  # 2020-11-29
-    本站国内镜像地址: https://ajq7rq.coding-pages.com/  # 2020-11-29
+    本站国外地址(Github): https://ysl970629.github.io/  # 2020-11-29
+    本站国内地址(Gitee): https://ysl970629.gitee.io/  # 2020-12-01
+    本站国内地址(Coding): https://ajq7rq.coding-pages.com/  # 2020-11-29
+    个人知识库: https://github.com/ysl970629/foam-notes  # 2020-12-01
 
 # Table of Contents in the Sidebar
 # Front-matter variable (unsupport wrap expand_all).

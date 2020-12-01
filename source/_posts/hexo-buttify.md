@@ -18,6 +18,7 @@ close article update
 test changyan comment platform
 test valine
 test gitee deploy4
+test renew
 
 测试一下代码块高亮
 
