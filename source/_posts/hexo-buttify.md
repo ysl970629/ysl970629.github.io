@@ -19,6 +19,7 @@ test changyan comment platform
 test valine
 test gitee deploy4
 test renew
+text sidebar my-notes
 
 测试一下代码块高亮
 
