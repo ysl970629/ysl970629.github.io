@@ -129,6 +129,13 @@ symbols_count_time:
   wpm: 300
   suffix: "mins."
 
+# hexo sitemap
+sitemap:
+  path: sitemap.xml
+
+baidusitemap:
+  path: baidusitemap.xml
+
 # theme_config:
 #   # ---------------------------------------------------------------
 #   # Theme Core Configuration Settings
